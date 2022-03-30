@@ -1,2 +1,2 @@
 # Tech_Prog_8
-Это main ветка
+Это my-feature ветка
