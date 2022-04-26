@@ -12,8 +12,8 @@ a{
 }
 
 .block{
-    width: 800px;
-    height: 530px;
+    max-width: 800px;
+    height: 500px;
     background-color: #4f4fe5;
     position: absolute;
     left: 0;
@@ -22,13 +22,80 @@ a{
     top: 20%;
     border-radius: 50px;
 }
+
+/*Адаптивная ширина*/
+@media (max-width: 580px) {
+    .block{
+        max-width: 550px;
+    }
+    .inp{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .block{
+        max-width: 400px;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    .block{
+        max-width: 350px;
+    }
+
+}
+
+@media (max-width: 355px) {
+    .block{
+        max-width: none;
+        max-height: none;
+    }
+
+
+}
+
+
+/*Адаптивная высота*/
+@media (max-height: 650px) {
+    .block{
+        max-height: 600px;
+    }
+
+}
+
+@media (max-height: 620px) {
+    .block{
+        max-height: 550px;
+    }
+
+}
+
+@media (max-height: 570px) {
+    .block{
+        max-height: 500px;
+    }
+
+}
+
+@media (max-height: 520px) {
+    .block{
+        max-height: none;
+
+    }
+
+
+}
+
 form{
     margin: 0 auto;
     position: absolute;
     left: 20px;
     text-align: center;
     right: 0;
-    width: 500px;
+    max-width: 500px;
     height: 500px;
     top: 2%;
 }

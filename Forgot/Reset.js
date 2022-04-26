@@ -4,4 +4,10 @@ function reset()
     {
         alert("Пароли не совпадают")
     }
+
+    if (document.getElementById('first').value == "")
+    {
+        alert("Введите пароль")
+        return
+    }
 }
