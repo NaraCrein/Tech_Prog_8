@@ -18,3 +18,8 @@ function change()
         document.querySelector('#inp1').disabled = "disabled"
     }
 }
+
+function createNote()
+{
+    window.location.href = '../Add/add.html'
+}
