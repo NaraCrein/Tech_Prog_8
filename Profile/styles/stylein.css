@@ -83,7 +83,7 @@ a{
 
 .block{
     max-width: 800px;
-    height: 630px;
+    height: 580px;
     background-color: #4f4fe5;
     position: absolute;
     left: 0;
@@ -142,7 +142,7 @@ p.Text{
 .submit{
     display: block ;
     width: 75% ;
-    margin:0 auto 50px  auto;
+    margin:0 auto 25px  auto;
 
     height: 55px;
     font-weight: bolder;
