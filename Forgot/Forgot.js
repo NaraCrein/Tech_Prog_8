@@ -13,6 +13,15 @@ function send(){
 }
 
 function reset(){
-    window.location.href = 'Reset.html';
+    if (document.querySelector('#send1').disabled && document.getElementById('code').value != "")
+        window.location.href = 'Reset.html';
+    else if (!document.querySelector('#send1').disabled){
+        alert("Введите email")
+        return
+    }
+    else {
+        alert("Введите код")
+    }
+
 
 }
