@@ -10,4 +10,6 @@ function reset()
         alert("Введите пароль")
         return
     }
+    alert("Пароль успешно изменен")
+    window.location.href = '../Profile/Profile.html'
 }
